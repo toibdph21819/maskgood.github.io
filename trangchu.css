@@ -1,0 +1,398 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 0.5em;
+}
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.text-align{
+text-align: center;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+.top_header1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #003300;
+    color: white;
+}
+
+.nav {
+    margin: 1em 0;
+}
+
+.inner-nav {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2em;
+}
+
+.inner-nav .img img {
+    height: 3em;
+}
+
+.inner_Search {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 1em;
+}
+
+.inner-nav div {
+    text-align: center;
+}
+
+.search input {
+    height: 1.9em;
+    width: 90%;
+    border: 0px;
+    margin-left: 0.5em;
+}
+.text-right{
+    text-align: right;
+}
+.menu {
+    line-height: 3em;
+    height: 3em;
+    width: 100%;
+    /*margin: 0px 10px;*/
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.bold {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    display: inline-block;
+    text-align: center;
+    transition: 1;
+    /* border-right: 1px solid black; */
+}
+
+.DMSP h3 {
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    display: table;
+    background-color: #003300;
+    color: white;
+}
+
+.menu_ngang {
+    /* margin-right: 10%; */
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 100%;
+}
+
+.bold:hover {
+    color: orangered;
+}
+
+.menu_ngang ul>li a {
+    text-decoration: none;
+    margin: auto;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 0.5em;
+}
+
+.DMSP {
+    float: left;    
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.DMSP nav ul {
+    margin-top: 0px;
+    list-style: none;
+    border: 1px solid #aecc9a;
+}
+
+.DMSP nav ul li {
+    padding: 4px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.DMSP nav ul li a {
+    padding: 10px 0;
+    display: block;
+    padding-left: 20%;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 1px solid #aecc9a;
+}
+.DMSP nav ul li a:hover{
+    transform: scale(1.1);
+    transition: 0.5;
+    background-color: green;
+    color: white;
+}
+
+.div .img {
+    border: 0px;
+    width: 500px;
+    height: 100px;
+}
+
+.menu_caycanh {
+    /* background-image: url("F:/Năm 2/đồ án 2/code/img/listcaydeban.jpg"); */
+    width: 100px;
+    height: 100PX;
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu_caycanh li {
+    padding: 20px;
+}
+
+.menu_caycanh .menu1 p:hover {
+    opacity: 0.5;
+}
+
+.menu_caycanh .img {
+    width: 30%;
+}
+.menu_caycanh ul li a img{
+    border-radius: 10px;
+}
+
+.menu_caycanh ul li {
+    width: 19%;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    float: left;
+    text-align: center;
+}
+
+.menu_caycanh ul li a {
+    margin: 10px;
+}
+
+.menu_caycanh ul li a h2 {
+    opacity: 0;
+}
+
+.menu_caycanh ul li a h2:hover {
+    opacity: 1;
+}
+
+.menu_caycanh {
+    width: auto;
+    height: 250px;
+    margin: 50px;
+}
+
+.btn-facebook a {
+    float: right;
+    padding-right: 0px;
+}
+
+#main {
+    width: 100%;
+    min-height: 300px;
+    margin: auto;
+}
+
+.div200 {
+    width: 23%;
+    margin-left: 18px;
+    margin-top: 5px;
+    padding: 5px;
+    float: left;
+    border: 0.1px solid white;
+    text-align: center;
+}
+.div200 p a{
+    font-size: 20px;
+}
+.div200 img {
+    transition: 1.8;
+    width: 225px;
+    height: 225px;
+}
+
+.div200 img:hover {
+    transform: scale(1.1);
+    transition: 1;
+}
+
+.div200 a {
+    text-decoration: none;
+    color: black;
+}
+
+.div200 a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+p.chitiet {
+    font-size: 11px;
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+/* căn giữa ảnh */
+
+img.cangiua {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.letrai {
+    margin-left: 10px;
+}
+
+/* .menu_doc {
+    margin-left: auto;
+} */
+
+/* .tchinh {
+    width: 80%;    
+    margin: auto;
+} */
+
+.daica {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.bo {
+    width: 33.3333%;
+    margin: 15px 15px;
+}
+
+.bo .img img {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.bo .img img:hover {
+    border-color: black;
+}
+
+.bo h3 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.bo p::before {
+    content: "";
+    width: 80px;
+    border-top: 1px solid black;
+    display: block;
+    margin: 15px 0px;
+}
+
+.boo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trum {
+    width: 80%;
+    height: 199px;
+    margin: auto;
+    background-color: gray;
+    /* background-repeat: repeat-x;
+    background-image: url("F:/Năm 2/đồ án 2/code/img/footer.jpg"); */
+}
+
+.footer {
+    width: 33%;
+    margin-left: 3.9px;
+    margin-top: 5px;
+    padding: 5px;
+    float: left;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.div200{
+    color: rgb(50, 216, 17)
+}
